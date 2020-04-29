@@ -1,0 +1,38 @@
+.footer {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #27273e;
+  color: white;
+}
+
+.footer__wrapper {
+  display: flex;
+  width: 1163px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.footer-copyright {
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 260px;
+  font-weight: 300;
+}
+
+.footer-copyright__link {
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo--footer {
+  margin-left: 1px;
+  display: flex;
+}
+
+.author__name {
+  font-weight: bold;
+}

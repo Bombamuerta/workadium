@@ -1,0 +1,11 @@
+.banner {
+  margin-bottom: 29px;
+  background-color: #27273e;
+  display: flex;
+  justify-content: center;
+}
+
+.banner__pic {
+  width: 1200px;
+  height: 395px;
+}

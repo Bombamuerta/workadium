@@ -1,0 +1,91 @@
+.menu {
+  display: flex;
+  font-family: 'Gotham pro', Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.menu--main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9px;
+  padding-left: 115px;
+  font-family: 'Gotham pro', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.menu--comments {
+  font-family: 'Gotham pro', Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
+.menu__item {
+  display: flex;
+  padding: 1px;
+  padding-bottom: 0;
+  padding-right: 90px;
+}
+
+.menu__link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+}
+
+.menu__link--other {
+  color: #ec1e79;
+}
+
+.menu__link--black {
+  color: #000;
+}
+
+.menu__link--active {
+  color: #ec1e79;
+  text-decoration: underline #6d254f;
+}
+
+.menu__link:hover {
+  color: #ec1e79;
+  transition: 0.3s;
+}
+
+.menu__link--other:hover {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu__link--black:hover {
+  color: #000;
+  transition: 0.3s;
+}
+
+.icon-triangle {
+  margin-right: 19px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu__text {
+  margin: 0 auto;
+}
+
+.icon-star {
+  font-size: 21px;
+  margin-right: 14px;
+  text-decoration: none;
+}
+
+.icon-wallet1 {
+  font-size: 17px;
+  margin-right: 16px;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.offer {
+  background: url(/img/pic/offer.png);
+  width: 276px;
+  text-align: center;
+  padding: 22px 13px 30px 10px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+.offer__banner {
+  margin: 0 auto;
+}
+
+.offer__text-top,
+.offer__text {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 1.7;
+}
+
+.offer__text-top::after {
+  content: ' скидку 50%';
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  color: #ec1e79;
+  font-weight: bold;
+  font-size: 18px;
+}

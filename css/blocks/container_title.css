@@ -1,0 +1,30 @@
+.container__title {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+  color: #221f1f;
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 78px;
+  line-height: 36px;
+}
+
+.container__title--comments {
+  margin-bottom: 51px;
+}
+
+.container__title--form {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+  color: #221f1f;
+  position: absolute;
+  top: 50px;
+  left: 96px;
+}
+
+.container__title--price {
+  margin-bottom: 36px;
+  margin-left: -7px;
+}

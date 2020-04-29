@@ -1,0 +1,75 @@
+.price-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.price-block__item {
+  width: 29%;
+  display: flex;
+  margin-right: 33px;
+  margin-bottom: 51px;
+  margin-top: 4px;
+}
+
+.price-logo {
+  width: 250px;
+  height: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.price-desc__title {
+  text-align: center;
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1px;
+}
+
+.price-content__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.price-logo__text {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  color: #5dd1f8;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 23px;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+
+.price-logo__text-vip {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  color: #5dd1f8;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price-logo__vip {
+  color: #ec1e79;
+  display: block;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.price-desc__text {
+  text-align: center;
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}

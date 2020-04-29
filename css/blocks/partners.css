@@ -1,0 +1,39 @@
+.partners-block {
+  border: 1px solid #e8e9ed;
+  width: 270px;
+  height: 660px;
+  margin-top: 5px;
+  margin-bottom: 29px;
+}
+
+.parters__header {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 48px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.partners-block__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.parnters-block__list-item {
+  padding-bottom: 40px;
+}
+
+.partners-block__logo-pic {
+  filter: grayscale(100%);
+}
+
+.partners-block__logo-pic:hover {
+  filter: none;
+  transition: 0.3s;
+}

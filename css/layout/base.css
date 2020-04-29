@@ -1,0 +1,44 @@
+/* base layout settings */
+
+html {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+}
+
+.wrapper-content {
+  flex: 1;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  max-width: 80%;
+}
+
+.wrapper-bottom {
+  width: 1100px;
+  margin: 0 auto;
+  min-width: 1100px;
+  margin-bottom: 27px;
+  display: flex;
+  justify-content: center;
+}

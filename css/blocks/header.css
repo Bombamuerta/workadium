@@ -1,0 +1,29 @@
+.header {
+  background-color: #27273e;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gotham pro', Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 12px 18px 9px 20px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  margin: 0 auto;
+  display: flex;
+  width: 1163px;
+  justify-content: space-between;
+}
+
+.header--comments {
+  margin-bottom: 41px;
+}
+
+.header--price {
+  margin-bottom: 26px;
+}
+
+.logo__pic {
+  width: 100%;
+  height: auto;
+}
